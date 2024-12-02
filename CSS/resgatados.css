@@ -58,8 +58,9 @@ body {
 .resgatados {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Garante que as colunas fiquem distribuídas */
+    justify-content: center; 
     margin: 0 30px 150px 30px; /* Aumenta o espaçamento em torno do conteúdo */
+    gap: 30px;
     
 }
 
