@@ -1,0 +1,394 @@
+/* FONTE ALEXANDRIA */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+   
+
+ 
+  .textoslt {
+    margin: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+ 
+  h2 {
+    text-align: center;
+    color: #333;
+    margin: 20px;
+  }
+ 
+  -ul {
+    list-style-type: none;
+    padding: 0;
+   
+  }
+ 
+  -li {
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+ 
+ 
+  /* INICIO DA PÁGINA WEB CONTATO */
+
+  .backgrounddoe{
+background-color: #ffffff;
+  }
+
+
+  main{
+    max-width: 1200px;
+    align-items: center;
+    height: auto;
+    padding: 25px 0;
+    margin: 0px auto;
+      
+  }
+ 
+  .container_doe {
+    max-width: 1920px;
+    margin: 0 auto;
+  
+  }
+ 
+  .textoPrincipal {
+    
+    color: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 50px;
+    height: 50%;
+    text-align: justify;
+    background-color: #efefef;
+    
+  }
+ 
+  .subtituloComoAjudar {
+    color: rgb(32, 161, 161);
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0;
+  }
+ 
+  .lista-comoAjudar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+ 
+  .ul-ajudar {
+    padding: 20px 0;
+  }
+ 
+  .ul-ajudar li {
+    display: list-item;
+    margin: 0 5px;
+  }
+ 
+  .titulocentral {
+    background-color: rgb(32, 161, 161);
+    margin-top: 0;
+    color: #f7f3fd;
+    font-family: "Alexandria", sans-serif;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+   
+    
+  }
+ 
+  .caixa_txt_1, .caixa_txt_2, .fraseEfeito2 {
+    
+
+    text-align: center; /* Centraliza o texto dentro do bloco */
+    padding: 20px 25px;
+    background-color: #efefef;
+    margin: 20px;
+    
+  }
+ 
+  p {
+    text-align: justify;
+    font-size: 25px;
+    justify-content: center;
+    font-family: "Alexandria", sans-serif;
+  }
+
+  .pagradecimento{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 25px;
+    background-color: #efefef;
+    color: #000000;
+   
+
+  }
+ 
+  /* DIV IMAGEM - FLEX-BOX */
+  .containercontato {
+    width: 100%;
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+  }
+ 
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(248, 248, 248, 0.2);
+    padding: 35px;
+    border-radius: 20px 50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+ 
+  .box img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    
+  }
+ 
+ 
+ 
+  .cards.antes {
+    display: table;
+    width: 100%;
+    height: 35%;
+    padding: 100px 0;
+    color: white;
+    background-position: 30% 45%;
+    background-size: cover;
+    filter: blur(6px);
+    position: absolute;
+    font-size: 22px;
+  }
+ 
+  .box-pixQrcode {
+    display: flex;
+    justify-content: space-between; /* Garante que as imagens fiquem afastadas igualmente */
+    align-items: center;
+    width: 100%; /* Garante que o container ocupe toda a largura disponível */
+    gap: 10px; /* Adiciona um espaço pequeno entre as imagens */
+    margin: 0; /* Elimina margens extras */
+    padding: 0; /* Remove qualquer padding que esteja ocupando espaço desnecessário */}
+  
+ 
+  .imgPix {
+    width: 80%; /* Define a largura das imagens para que fiquem lado a lado */
+    object-fit: cover; /* Garante que as imagens não distorçam */
+  }
+
+  .imgQrcode {
+    width: 38%; /* Define a largura das imagens para que fiquem lado a lado */
+    object-fit: cover; /* Garante que as imagens não distorçam */
+}
+ 
+  .item-0 {
+    order: 6;
+    flex-grow: 0;
+   
+    align-self: center;
+    margin: 10px;
+   
+  }
+ 
+  .item-1 {
+    order: 6;
+    flex-grow: 0;
+    align-self: center;
+    margin: 10px;
+    text-align: center;
+        display: block;
+   
+  }
+ 
+  h3 {
+    background-color: rgb(32, 161, 161);
+    margin-top: 0;
+    color: #f7f3fd;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+ 
+  /* INICIO BOTÃO ENTRE EM CONTATO */
+  
+
+  .boxbuttom{ 
+  text-align: center;
+  margin-top: 86px;
+}
+
+.buttomEnteemcontato {
+    background-color: #A711BE;
+    color: white;
+    border: none;
+    border-radius: 65px;
+    padding: 13px 14px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-bottom: -13px;
+    display: inline-block; /* Para garantir que o link se comporte como um botão */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+a:hover {
+  color: white; /* Define a cor do texto para branco */
+    transform: scale(1.02);
+}
+
+a:active {
+    background-color: #5A0D6C;
+    transform: scale(0.98);
+}
+
+/* Estilo do fundo de sobreposição */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 300ms ease; /* Controle suave da opacidade */
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* Quando o pop-up é aberto */
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Estilo do pop-up */
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 40%;
+  position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  transition: none; /* Remove qualquer transição de movimento */
+  
+}
+
+/* Título do pop-up */
+.popup h2 {
+  margin-top: 0;
+  margin: 40px;
+  color: #841273;
+  font-size: 32px;
+  text-align: center; /* Centraliza o título */
+}
+
+/* Fechar o pop-up */
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  transition: none;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+/* Conteúdo dentro do pop-up */
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  text-align: center; /* Centraliza o texto */
+}
+
+.lista-contato {
+  list-style-type: disc; /* Adiciona as bolinhas antes do texto */
+  padding: 0;
+  text-align: center; 
+}
+
+
+.lista-contato {
+  list-style-type: disc; /* Adiciona as bolinhas antes do texto */
+  padding: 0;
+  text-align: center; 
+  display: flex; /* Para usar flexbox */
+  flex-direction: column; /* Organiza os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+}
+
+
+.lista-contato li {
+  font-size: 18px;
+  color: #555;
+  padding: 3px 65px;
+  margin: 15px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center; /*  texto fique alinhado com a bolinha */
+  justify-content: center; /* texto e a bolinha fiquem centralizados */
+}
+
+
+.lista-contato li::before {
+  content: "•"; /* Define o símbolo da bolinha */
+  font-size: 30px; /* Tamanho da bolinha */
+  color: #A711BE; /* Cor da bolinha */
+  margin-right: 10px; /* Espaçamento entre a bolinha e o texto */
+  display: inline-block;
+}
+
+
+.lista-contato li:last-child {
+  border-bottom: none; 
+}
+
+/* Imagem do pop-up */
+.popup img {
+  display: block;
+  margin: 0px auto; 
+  width: 414px;
+  height: 262px;
+  border-radius: 5px; 
+}
+footer {
+  background-color: #A711BE;
+  
+  height: 60px;
+  color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+
+}
+footer p {
+  font-size: 10px;
+  padding-left: 100px;
+  padding-right: 470px;
+  
+}
+footer a img {
+  max-width: 40px;
+  max-height: 40px;
+  padding-top: 10px;
+}
